@@ -82,4 +82,4 @@ meltData   = melt(mergeData, id = idLabels, measure.vars = dataLabels)
 # Step 10. Finally, we use dcast function to calculate the mean on the available dataset
 tidyData   = dcast(meltData, subject + Activity_Label ~ variable, mean)
 
-write.table(tidyData, file = "./tidy_data.txt")
+write.table(tidyData, file = "./tidy_data.txt", row.name = FALSE)
