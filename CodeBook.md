@@ -64,3 +64,4 @@ There are 5 parts:
 * Two parts: processing test and train data.
 * Merge data sets.
 * Write the merged data set to a tidy data file.
+* Data file can be found as: tidy_data.txt
